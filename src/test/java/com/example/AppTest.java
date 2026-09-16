@@ -8,15 +8,11 @@ public class AppTest {
 
     @Test
     public void testAddition() {
-        int result = App.add(10, 20);
-
-        assertEquals(30, result);
+        assertEquals(30, App.add(10, 20));
     }
 
     @Test
     public void testAnotherAddition() {
-        int result = App.add(5, 15);
-
-        assertEquals(20, result);
+        assertEquals(50, App.add(25, 25));
     }
 }
